@@ -7,7 +7,7 @@ class CEDRPipeline(EstimatorBase):
     
     
     
-    def __init__(self, modelname='vanilla_bert', doc_attr="body", max_train_rank=None, max_valid_rank=None, model_out_dir=None):
+    def __init__(self, modelname='vanilla_bert', doc_attr="text", max_train_rank=None, max_valid_rank=None, model_out_dir=None):
             self.modelname = modelname
             self.doc_attr = doc_attr
             self.max_train_rank = max_train_rank
